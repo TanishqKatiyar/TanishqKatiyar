@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <style>
+    @keyframes pulse{0%,100%{opacity:.2}50%{opacity:.7}}
+    @keyframes shimmer{0%{opacity:.4}50%{opacity:1}100%{opacity:.4}}
+    .p1{animation:pulse 3s ease-in-out infinite}
+    .p2{animation:pulse 4s ease-in-out infinite}
+    .p3{animation:pulse 3.5s ease-in-out infinite}
+    .sh{animation:shimmer 6s ease-in-out infinite}
+  </style>
+  <defs>
+    <linearGradient id="a" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#642F37"/>
+      <stop offset="25%" stop-color="#C0350F"/>
+      <stop offset="50%" stop-color="#F3904B"/>
+      <stop offset="75%" stop-color="#F7C767"/>
+      <stop offset="100%" stop-color="#B89DBB"/>
+    </linearGradient>
+    <pattern id="g" width="60" height="60" patternUnits="userSpaceOnUse">
+      <line x1="60" y1="0" x2="60" y2="60" stroke="#F3904B" stroke-width="0.4" opacity="0.07"/>
+      <line x1="0" y1="60" x2="60" y2="60" stroke="#F3904B" stroke-width="0.4" opacity="0.07"/>
+    </pattern>
+    <radialGradient id="glow1" cx="15%" cy="80%" r="25%">
+      <stop offset="0%" stop-color="#C0350F" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#C0350F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="85%" cy="20%" r="25%">
+      <stop offset="0%" stop-color="#B89DBB" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#B89DBB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="320" fill="#0a0a0f"/>
+  <rect width="1200" height="320" fill="url(#g)"/>
+  <rect width="1200" height="320" fill="url(#glow1)"/>
+  <rect width="1200" height="320" fill="url(#glow2)"/>
+  <rect y="0" width="1200" height="2" fill="url(#a)"/>
+  <polyline points="0,50 0,0 50,0" fill="none" stroke="#F3904B" stroke-width="1.5" opacity="0.3"/>
+  <polyline points="1150,0 1200,0 1200,50" fill="none" stroke="#F7C767" stroke-width="1.5" opacity="0.3"/>
+  <polyline points="0,270 0,320 50,320" fill="none" stroke="#B89DBB" stroke-width="1.5" opacity="0.3"/>
+  <polyline points="1150,320 1200,320 1200,270" fill="none" stroke="#C0350F" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="100" cy="260" r="45" fill="none" stroke="#F3904B" stroke-width="0.5" opacity="0.12"/>
+  <circle cx="100" cy="260" r="30" fill="none" stroke="#F7C767" stroke-width="0.3" opacity="0.08"/>
+  <rect x="1030" y="40" width="70" height="70" fill="none" stroke="#B89DBB" stroke-width="0.5" opacity="0.1" rx="3"/>
+  <rect x="1050" y="60" width="70" height="70" fill="none" stroke="#F7C767" stroke-width="0.3" opacity="0.07" rx="3"/>
+  <line x1="40" y1="45" x2="130" y2="45" stroke="#C0350F" stroke-width="0.5" opacity="0.15"/>
+  <line x1="1070" y1="275" x2="1160" y2="275" stroke="#F3904B" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="505" cy="95" r="4" fill="#F3904B" class="sh"/>
+  <text x="518" y="99" font-family="monospace" font-size="11" fill="#6e7681" letter-spacing="2">available for work</text>
+  <text x="600" y="155" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#F7C767" letter-spacing="4">TANISHQ KATIYAR</text>
+  <rect x="460" y="170" width="280" height="2" fill="url(#a)" rx="1" class="sh"/>
+  <text x="600" y="205" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="15" fill="#B89DBB" letter-spacing="8">AI SOFTWARE ENGINEER</text>
+  <circle cx="555" cy="232" r="2" fill="#642F37" opacity="0.7"/>
+  <circle cx="575" cy="232" r="2" fill="#C0350F" opacity="0.7"/>
+  <circle cx="595" cy="232" r="2.5" fill="#F3904B" opacity="0.9"/>
+  <circle cx="615" cy="232" r="2" fill="#F7C767" opacity="0.7"/>
+  <circle cx="635" cy="232" r="2" fill="#B89DBB" opacity="0.7"/>
+  <text x="600" y="265" text-anchor="middle" font-family="monospace" font-size="11" fill="#555" letter-spacing="3">systems architect · full-stack · india</text>
+  <circle cx="220" cy="90" r="1.5" fill="#F7C767" class="p1"/>
+  <circle cx="980" cy="280" r="2" fill="#F3904B" class="p2"/>
+  <circle cx="350" cy="290" r="1.5" fill="#B89DBB" class="p3"/>
+  <circle cx="870" cy="70" r="1.5" fill="#C0350F" class="p1"/>
+  <circle cx="720" cy="300" r="1.5" fill="#F7C767" class="p2"/>
+  <circle cx="160" cy="170" r="1" fill="#F3904B" class="p3"/>
+  <circle cx="1080" cy="170" r="1" fill="#B89DBB" class="p1"/>
+  <rect y="318" width="1200" height="2" fill="url(#a)"/>
+</svg>
