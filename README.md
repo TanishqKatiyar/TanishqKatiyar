@@ -24,7 +24,7 @@
 <tr>
 <td width="40%" valign="top">
 
-### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="22"/> &nbsp;`whoami`
+### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="22"/> `whoami`
 
 ```js
 const tanishq = {
@@ -44,7 +44,7 @@ const tanishq = {
 </td>
 <td width="60%" valign="top">
 
-### ✦ &nbsp;What I'm Building
+### ✦ What I'm Building
 
 > **🤖 AI Interview Agents** — Real-time WebRTC screening with multi-LLM routing & speech analytics
 >
@@ -76,7 +76,7 @@ const tanishq = {
 
 <div align="center">
 
-### ✦ &nbsp;`S I G N A T U R E &nbsp; W O R K S`
+### ✦ `S I G N A T U R E   W O R K S`
 
 <br/>
 
@@ -209,7 +209,7 @@ Production food delivery with **user auth, live order tracking**, payment integr
 
 <div align="center">
 
-### ✦ &nbsp;`T E C H &nbsp; A R S E N A L`
+### ✦ `T E C H   A R S E N A L`
 
 <br/>
 
@@ -280,7 +280,7 @@ Production food delivery with **user auth, live order tracking**, payment integr
 
 <div align="center">
 
-### ✦ &nbsp;`A N A L Y T I C S`
+### ✦ `A N A L Y T I C S`
 
 <br/>
 
@@ -305,7 +305,7 @@ Production food delivery with **user auth, live order tracking**, payment integr
 
 <div align="center">
 
-### ✦ &nbsp;`T R O P H I E S`
+### ✦ `T R O P H I E S`
 
 <br/>
 
@@ -321,7 +321,7 @@ Production food delivery with **user auth, live order tracking**, payment integr
 
 <div align="center">
 
-### ✦ &nbsp;`C O N N E C T`
+### ✦ `C O N N E C T`
 
 <br/>
 
