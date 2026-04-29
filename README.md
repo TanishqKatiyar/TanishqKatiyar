@@ -1,106 +1,68 @@
 <div align="center">
 
-<!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Tanishq%20Katiyar&fontSize=52&fontColor=58a6ff&fontAlignY=35&desc=AI%20Software%20Engineer%20%E2%80%A2%20Systems%20Architect%20%E2%80%A2%20Builder&descSize=18&descAlignY=55&descColor=8b949e&animation=fadeIn" />
+<img src="./assets/header.svg" width="100%" alt="Tanishq Katiyar"/>
 
-<!-- TYPING SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Architecting+intelligent+systems+that+scale+%F0%9F%9A%80;Full-stack+%E2%80%A2+AI%2FML+%E2%80%A2+Real-time+Systems+%E2%80%A2+Cloud+Native;Turning+complex+problems+into+elegant+solutions+%E2%9C%A8)](https://github.com/TanishqKatiyar)
+<br/>
 
-<!-- SOCIAL BADGES -->
-<p>
-<a href="https://github.com/TanishqKatiyar?tab=followers">
-  <img src="https://img.shields.io/github/followers/TanishqKatiyar?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=1f6feb" alt="Followers"/>
-</a>
-<a href="https://github.com/TanishqKatiyar?tab=repositories">
-  <img src="https://img.shields.io/badge/Public%20Repos-12+-1f6feb?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Repos"/>
-</a>
-<img src="https://komarev.com/ghpvc/?username=TanishqKatiyar&style=for-the-badge&color=1f6feb&labelColor=0d1117&label=PROFILE+VIEWS" alt="Profile Views"/>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&weight=500&size=16&duration=3000&pause=1500&color=F7C767&center=true&vCenter=true&repeat=true&width=550&height=40&lines=%E2%9C%A6+architecting+intelligent+systems+that+scale;%E2%9C%A6+full-stack+%C2%B7+ai%2Fml+%C2%B7+real-time+%C2%B7+cloud+native;%E2%9C%A6+turning+complexity+into+elegant+solutions)](https://github.com/TanishqKatiyar)
+
+<br/>
+
+<a href="https://github.com/TanishqKatiyar?tab=followers"><img src="https://img.shields.io/github/followers/TanishqKatiyar?style=flat-square&logo=github&logoColor=F7C767&label=Followers&labelColor=0a0a0f&color=F3904B" alt="Followers"/></a>&nbsp;&nbsp;
+<img src="https://komarev.com/ghpvc/?username=TanishqKatiyar&style=flat-square&color=C0350F&label=Profile+Views&labelColor=0a0a0f" alt="Views"/>&nbsp;&nbsp;
+<a href="https://github.com/TanishqKatiyar?tab=repositories"><img src="https://img.shields.io/badge/Repos-12+-F7C767?style=flat-square&logoColor=F7C767&labelColor=0a0a0f" alt="Repos"/></a>
 
 </div>
 
----
-
 <br/>
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;About Me
-
-```yaml
-name: Tanishq Katiyar
-role: AI Software Engineer & Systems Architect
-focus:
-  - Intelligent Agent Systems & Multi-LLM Orchestration
-  - Real-time Communication (WebRTC, WebSockets)
-  - Full-Stack Production Systems (React · Next.js · Node · Go)
-  - Cloud-Native Architecture & DevOps
-  - AI/ML Integration & Speech Analytics
-
-currently_building:
-  - 🤖 AI-powered interview agents with real-time speech processing
-  - 🛡️ Anti-fraud delivery systems with ML-driven anomaly detection
-  - 💰 Smart expense trackers with voice-first AI interfaces
-  - 🌐 Production-grade portfolio & web applications
-
-principles:
-  - "Ship fast, ship often, but never ship broken"
-  - "Every system should be observable, testable, and debuggable"
-  - "AI is a tool — architecture is the craft"
-```
+<img src="./assets/divider.svg" width="100%"/>
 
 <br/>
-
-## 🏗️ &nbsp;Signature Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="40%" valign="top">
 
-### 🤖 [AI Interview Agent](https://github.com/TanishqKatiyar/Interview_agent-)
-**End-to-end AI Tutor Screening System**
+### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="22"/> &nbsp;`whoami`
 
-An enterprise-grade screening platform featuring real-time WebRTC audio, dynamic multi-LLM routing, and deep speech analytics.
-
-`Next.js` `Supabase` `WebRTC` `LLM Orchestration` `TTS/STT` `Real-time Analytics`
-
-<img src="https://img.shields.io/badge/Status-Production-238636?style=flat-square&labelColor=0d1117" /> <img src="https://img.shields.io/badge/Architecture-Microservices-1f6feb?style=flat-square&labelColor=0d1117" />
-
-</td>
-<td width="50%">
-
-### 🛡️ [Anti-Fraud Delivery System](https://github.com/TanishqKatiyar/Anti-fraud-delivery-system)
-**ML-Powered Fraud Detection Pipeline**
-
-Intelligent delivery verification system with real-time anomaly detection, geospatial analysis, and automated risk scoring.
-
-`Python` `Machine Learning` `Anomaly Detection` `GeoSpatial` `Real-time Processing`
-
-<img src="https://img.shields.io/badge/Status-Active-238636?style=flat-square&labelColor=0d1117" /> <img src="https://img.shields.io/badge/ML-Production--Ready-8957e5?style=flat-square&labelColor=0d1117" />
+```js
+const tanishq = {
+  role: "AI Software Engineer",
+  location: "India 🇮🇳",
+  focus: [
+    "Intelligent Agent Systems",
+    "Multi-LLM Orchestration",
+    "Real-time Communication",
+    "Full-Stack Architecture"
+  ],
+  philosophy: "Build systems that think,
+    scale, and adapt."
+};
+```
 
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td width="60%" valign="top">
 
-### 💰 [Smart Expense Tracker](https://github.com/TanishqKatiyar/Smart-Expense-Tracker)
-**AI-Powered Financial Intelligence**
+### ✦ &nbsp;What I'm Building
 
-Voice-first expense tracking with real-time AI assistant, smart categorization, and predictive spending analytics.
+> **🤖 AI Interview Agents** — Real-time WebRTC screening with multi-LLM routing & speech analytics
+>
+> **🛡️ Anti-Fraud Systems** — ML-driven anomaly detection with geospatial risk scoring
+>
+> **💰 Smart Finance Tools** — Voice-first AI expense tracking with predictive analytics
+>
+> **🍔 Production Platforms** — Full-stack delivery apps with live order tracking
 
-`React` `Node.js` `AI Voice Assistant` `Real-time` `Analytics Dashboard`
+<br/>
 
-<img src="https://img.shields.io/badge/Status-Active-238636?style=flat-square&labelColor=0d1117" /> <img src="https://img.shields.io/badge/AI-Voice--First-da3633?style=flat-square&labelColor=0d1117" />
-
-</td>
-<td width="50%">
-
-### 🍔 [Foodie Express](https://github.com/TanishqKatiyar/Foodie-express-web-application)
-**Full-Stack Food Delivery Platform**
-
-Production food delivery application with user auth, real-time order tracking, payment integration, and responsive design.
-
-`Full-Stack` `Authentication` `Order Tracking` `Payments` `Responsive UI`
-
-<img src="https://img.shields.io/badge/Status-Active-238636?style=flat-square&labelColor=0d1117" /> <img src="https://img.shields.io/badge/Full--Stack-Production-e3b341?style=flat-square&labelColor=0d1117" />
+```
+ ╭──────────────────────────────────────╮
+ │  ✦ Open to collaborate on AI/ML     │
+ │  ✦ Building in public               │
+ │  ✦ Systems > Scripts                 │
+ ╰──────────────────────────────────────╯
+```
 
 </td>
 </tr>
@@ -108,106 +70,275 @@ Production food delivery application with user auth, real-time order tracking, p
 
 <br/>
 
-## ⚡ &nbsp;Tech Arsenal
+<img src="./assets/divider.svg" width="100%"/>
+
+<br/>
 
 <div align="center">
 
-### 🧠 AI & Machine Learning
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d1117)
-![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white&labelColor=0d1117)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0d1117)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0d1117)
+### ✦ &nbsp;`S I G N A T U R E &nbsp; W O R K S`
 
-### 🌐 Frontend & Full-Stack
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0d1117)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=0d1117)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=0d1117)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=0d1117)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=0d1117)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=0d1117)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=0d1117)
+<br/>
 
-### ⚙️ Backend & Systems
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0d1117)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=0d1117)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white&labelColor=0d1117)
-![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white&labelColor=0d1117)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0d1117)
+</div>
 
-### 🗄️ Data & Cloud
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white&labelColor=0d1117)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0d1117)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=0d1117)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0d1117)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117)
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+**[`🤖 AI INTERVIEW AGENT`](https://github.com/TanishqKatiyar/Interview_agent-)**
+
+<sup>Enterprise AI Screening System</sup>
 
 </div>
 
 <br/>
 
-## 📊 &nbsp;GitHub Analytics
+End-to-end AI tutor screening platform with **real-time WebRTC audio**, dynamic multi-LLM routing, deep speech analytics, and automated assessment pipelines.
+
+<br/>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=TanishqKatiyar&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&ring_color=1f6feb" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=TanishqKatiyar&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" alt="GitHub Streak"/>
+
+![Next.js](https://img.shields.io/badge/Next.js-0a0a0f?style=flat-square&logo=nextdotjs&logoColor=F7C767)
+![Supabase](https://img.shields.io/badge/Supabase-0a0a0f?style=flat-square&logo=supabase&logoColor=F3904B)
+![WebRTC](https://img.shields.io/badge/WebRTC-0a0a0f?style=flat-square&logo=webrtc&logoColor=C0350F)
+![AI/ML](https://img.shields.io/badge/Multi--LLM-0a0a0f?style=flat-square&logo=openai&logoColor=B89DBB)
+
+<img src="https://img.shields.io/badge/⬤_Production-F3904B?style=flat-square&labelColor=0a0a0f" /> <img src="https://img.shields.io/badge/⬤_Microservices-B89DBB?style=flat-square&labelColor=0a0a0f" />
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+**[`🛡️ ANTI-FRAUD DELIVERY`](https://github.com/TanishqKatiyar/Anti-fraud-delivery-system)**
+
+<sup>ML-Powered Fraud Detection</sup>
+
 </div>
 
 <br/>
 
+Intelligent delivery verification with **real-time anomaly detection**, geospatial analysis, photo verification AI, and automated risk scoring engine.
+
+<br/>
+
 <div align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanishqKatiyar&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+
+![Python](https://img.shields.io/badge/Python-0a0a0f?style=flat-square&logo=python&logoColor=F7C767)
+![ML](https://img.shields.io/badge/Scikit--Learn-0a0a0f?style=flat-square&logo=scikitlearn&logoColor=F3904B)
+![FastAPI](https://img.shields.io/badge/FastAPI-0a0a0f?style=flat-square&logo=fastapi&logoColor=C0350F)
+![Geo](https://img.shields.io/badge/GeoSpatial-0a0a0f?style=flat-square&logo=googlemaps&logoColor=B89DBB)
+
+<img src="https://img.shields.io/badge/⬤_Active-F7C767?style=flat-square&labelColor=0a0a0f" /> <img src="https://img.shields.io/badge/⬤_ML--Ready-C0350F?style=flat-square&labelColor=0a0a0f" />
+
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+**[`💰 SMART EXPENSE TRACKER`](https://github.com/TanishqKatiyar/Smart-Expense-Tracker)**
+
+<sup>AI Financial Intelligence</sup>
+
 </div>
 
 <br/>
 
-## 🏆 &nbsp;GitHub Trophies
+Voice-first expense tracking with **AI-powered categorization**, real-time voice assistant, spending predictions, and interactive analytics dashboard.
+
+<br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TanishqKatiyar&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
+
+![React](https://img.shields.io/badge/React-0a0a0f?style=flat-square&logo=react&logoColor=F7C767)
+![Node](https://img.shields.io/badge/Node.js-0a0a0f?style=flat-square&logo=nodedotjs&logoColor=F3904B)
+![MongoDB](https://img.shields.io/badge/MongoDB-0a0a0f?style=flat-square&logo=mongodb&logoColor=C0350F)
+![AI](https://img.shields.io/badge/Voice_AI-0a0a0f?style=flat-square&logo=openai&logoColor=B89DBB)
+
+<img src="https://img.shields.io/badge/⬤_Active-F3904B?style=flat-square&labelColor=0a0a0f" /> <img src="https://img.shields.io/badge/⬤_Voice--First-642F37?style=flat-square&labelColor=0a0a0f" />
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+**[`🍔 FOODIE EXPRESS`](https://github.com/TanishqKatiyar/Foodie-express-web-application)**
+
+<sup>Full-Stack Delivery Platform</sup>
+
 </div>
 
 <br/>
 
-## 📈 &nbsp;Contribution Graph
+Production food delivery with **user auth, live order tracking**, payment integration, restaurant management, and fully responsive mobile-first UI.
+
+<br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TanishqKatiyar&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Timeline" alt="Contribution Graph" width="100%"/>
+
+![FullStack](https://img.shields.io/badge/Full--Stack-0a0a0f?style=flat-square&logo=javascript&logoColor=F7C767)
+![Express](https://img.shields.io/badge/Express-0a0a0f?style=flat-square&logo=express&logoColor=F3904B)
+![Auth](https://img.shields.io/badge/Auth-0a0a0f?style=flat-square&logo=auth0&logoColor=C0350F)
+![Payments](https://img.shields.io/badge/Payments-0a0a0f?style=flat-square&logo=stripe&logoColor=B89DBB)
+
+<img src="https://img.shields.io/badge/⬤_Active-F7C767?style=flat-square&labelColor=0a0a0f" /> <img src="https://img.shields.io/badge/⬤_Production-B89DBB?style=flat-square&labelColor=0a0a0f" />
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+### ✦ &nbsp;`T E C H &nbsp; A R S E N A L`
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+**`🧠 AI / ML`**
+
+<br/>
+
+![Python](https://img.shields.io/badge/Python-F7C767?style=flat-square&logo=python&logoColor=0a0a0f)
+![OpenAI](https://img.shields.io/badge/OpenAI-F3904B?style=flat-square&logo=openai&logoColor=0a0a0f)
+![Gemini](https://img.shields.io/badge/Gemini-C0350F?style=flat-square&logo=googlegemini&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-B89DBB?style=flat-square&logo=langchain&logoColor=0a0a0f)
+![TF](https://img.shields.io/badge/TensorFlow-642F37?style=flat-square&logo=tensorflow&logoColor=white)
+
+</td>
+<td align="center" width="25%">
+
+**`🌐 Frontend`**
+
+<br/>
+
+![TS](https://img.shields.io/badge/TypeScript-F7C767?style=flat-square&logo=typescript&logoColor=0a0a0f)
+![React](https://img.shields.io/badge/React-F3904B?style=flat-square&logo=react&logoColor=0a0a0f)
+![Next](https://img.shields.io/badge/Next.js-C0350F?style=flat-square&logo=nextdotjs&logoColor=white)
+![TW](https://img.shields.io/badge/Tailwind-B89DBB?style=flat-square&logo=tailwindcss&logoColor=0a0a0f)
+![JS](https://img.shields.io/badge/JavaScript-642F37?style=flat-square&logo=javascript&logoColor=white)
+
+</td>
+<td align="center" width="25%">
+
+**`⚙️ Backend`**
+
+<br/>
+
+![Node](https://img.shields.io/badge/Node.js-F7C767?style=flat-square&logo=nodedotjs&logoColor=0a0a0f)
+![Go](https://img.shields.io/badge/Go-F3904B?style=flat-square&logo=go&logoColor=0a0a0f)
+![Express](https://img.shields.io/badge/Express-C0350F?style=flat-square&logo=express&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-B89DBB?style=flat-square&logo=webrtc&logoColor=0a0a0f)
+![REST](https://img.shields.io/badge/REST_API-642F37?style=flat-square&logo=fastapi&logoColor=white)
+
+</td>
+<td align="center" width="25%">
+
+**`☁️ Cloud / Data`**
+
+<br/>
+
+![Supabase](https://img.shields.io/badge/Supabase-F7C767?style=flat-square&logo=supabase&logoColor=0a0a0f)
+![PG](https://img.shields.io/badge/Postgres-F3904B?style=flat-square&logo=postgresql&logoColor=0a0a0f)
+![Mongo](https://img.shields.io/badge/MongoDB-C0350F?style=flat-square&logo=mongodb&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-B89DBB?style=flat-square&logo=vercel&logoColor=0a0a0f)
+![Docker](https://img.shields.io/badge/Docker-642F37?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+</tr>
+</table>
+
 </div>
 
 <br/>
 
----
+<img src="./assets/divider.svg" width="100%"/>
+
+<br/>
 
 <div align="center">
 
-### 🤝 &nbsp;Let's Connect & Build Together
-
-<p>
-<a href="https://github.com/TanishqKatiyar">
-  <img src="https://img.shields.io/badge/GitHub-TanishqKatiyar-1f6feb?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub"/>
-</a>
-<a href="mailto:tanishqkatiyar@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact_Me-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email"/>
-</a>
-</p>
+### ✦ &nbsp;`A N A L Y T I C S`
 
 <br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Dev Quote"/>
-
-<br/>
-
-<!-- SNAKE ANIMATION -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TanishqKatiyar/TanishqKatiyar/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TanishqKatiyar/TanishqKatiyar/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/TanishqKatiyar/TanishqKatiyar/output/github-snake-dark.svg" />
-</picture>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=TanishqKatiyar&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=F7C767&icon_color=F3904B&text_color=8b949e&ring_color=C0350F&border_color=1a1a2e" alt="Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=TanishqKatiyar&hide_border=true&background=0a0a0f&ring=C0350F&fire=F3904B&currStreakLabel=F7C767&sideLabels=B89DBB&dates=555555&currStreakNum=F7C767&sideNums=F3904B" alt="Streak"/>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%"/>
+<img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanishqKatiyar&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=F7C767&text_color=8b949e&langs_count=8&border_color=1a1a2e" alt="Languages"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=TanishqKatiyar&bg_color=0a0a0f&color=B89DBB&line=F3904B&point=F7C767&area=true&area_color=C0350F&hide_border=true&custom_title=Contribution%20Timeline" width="95%" alt="Graph"/>
 
 </div>
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+### ✦ &nbsp;`T R O P H I E S`
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=TanishqKatiyar&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies"/>
+
+</div>
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+### ✦ &nbsp;`C O N N E C T`
+
+<br/>
+
+<a href="https://github.com/TanishqKatiyar">
+  <img src="https://img.shields.io/badge/GitHub-TanishqKatiyar-F7C767?style=for-the-badge&logo=github&logoColor=F7C767&labelColor=0a0a0f" alt="GitHub"/>
+</a>
+&nbsp;
+<a href="mailto:tanishqkatiyar@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Say_Hello-F3904B?style=for-the-badge&logo=gmail&logoColor=F3904B&labelColor=0a0a0f" alt="Email"/>
+</a>
+
+<br/><br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" alt="Quote"/>
+
+<br/><br/>
+
+</div>
+
+<img src="./assets/footer.svg" width="100%"/>
