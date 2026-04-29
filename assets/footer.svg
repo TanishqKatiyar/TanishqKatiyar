@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100">
+  <defs>
+    <linearGradient id="f" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#642F37"/>
+      <stop offset="25%" stop-color="#C0350F"/>
+      <stop offset="50%" stop-color="#F3904B"/>
+      <stop offset="75%" stop-color="#F7C767"/>
+      <stop offset="100%" stop-color="#B89DBB"/>
+    </linearGradient>
+    <pattern id="fg" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="40" y1="0" x2="40" y2="40" stroke="#F3904B" stroke-width="0.3" opacity="0.05"/>
+      <line x1="0" y1="40" x2="40" y2="40" stroke="#F3904B" stroke-width="0.3" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect y="0" width="1200" height="2" fill="url(#f)"/>
+  <rect y="2" width="1200" height="98" fill="#0a0a0f"/>
+  <rect y="2" width="1200" height="98" fill="url(#fg)"/>
+  <text x="600" y="45" text-anchor="middle" font-family="monospace" font-size="10" fill="#555" letter-spacing="4">DESIGNED WITH INTENTION · BUILT WITH PRECISION</text>
+  <circle cx="565" cy="68" r="2" fill="#642F37" opacity="0.5"/>
+  <circle cx="583" cy="68" r="2" fill="#C0350F" opacity="0.5"/>
+  <circle cx="601" cy="68" r="2" fill="#F3904B" opacity="0.6"/>
+  <circle cx="619" cy="68" r="2" fill="#F7C767" opacity="0.5"/>
+  <circle cx="637" cy="68" r="2" fill="#B89DBB" opacity="0.5"/>
+  <text x="600" y="90" text-anchor="middle" font-family="monospace" font-size="9" fill="#30363d" letter-spacing="3">© 2026 TANISHQ KATIYAR</text>
+</svg>
