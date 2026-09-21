@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/animated-header.svg" width="100%" alt="Header Animation"/>
+  <img src="https://raw.githubusercontent.com/TanishqKatiyar/TanishqKatiyar/main/assets/animated-header.svg" width="100%" alt="Header Animation"/>
 
   <br />
   
@@ -53,12 +53,6 @@
 <br />
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TanishqKatiyar&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
-</div>
-
-<br />
-
-<div align="center">
   <a href="mailto:tanishqkatiyar@gmail.com">
     <img src="https://img.shields.io/badge/tanishqkatiyar@gmail.com-09090b?style=for-the-badge&logo=gmail&logoColor=00F0FF" alt="Email" />
   </a>
@@ -67,5 +61,5 @@
 <br />
 
 <div align="center">
-  <img src="assets/animated-footer.svg" width="100%" alt="Footer Animation"/>
+  <img src="https://raw.githubusercontent.com/TanishqKatiyar/TanishqKatiyar/main/assets/animated-footer.svg" width="100%" alt="Footer Animation"/>
 </div>
