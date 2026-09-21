@@ -1,21 +1,13 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=150&section=header" width="100%"/>
-  
-  <h1>Hi there, I'm Tanishq Katiyar 👋</h1>
-  <p><b>AI & Full-Stack Software Engineer</b></p>
-  
-  <p>
-    I build scalable web applications, machine learning systems, and intelligent AI agents.<br/>
-    Passionate about solving complex problems through clean architecture and optimized code.
-  </p>
-  
+  <img src="assets/animated-header.svg" width="100%" alt="Header Animation"/>
+
   <br />
   
   <a href="https://github.com/TanishqKatiyar?tab=repositories">
-    <img src="https://img.shields.io/github/repos/TanishqKatiyar?style=for-the-badge&logo=github&color=2ea043" alt="Repositories"/>
+    <img src="https://img.shields.io/github/repos/TanishqKatiyar?style=for-the-badge&logo=github&color=5773FF&labelColor=09090b" alt="Repositories"/>
   </a>
   <a href="https://github.com/TanishqKatiyar?tab=followers">
-    <img src="https://img.shields.io/github/followers/TanishqKatiyar?style=for-the-badge&logo=github&color=238636" alt="Followers"/>
+    <img src="https://img.shields.io/github/followers/TanishqKatiyar?style=for-the-badge&logo=github&color=FF007A&labelColor=09090b" alt="Followers"/>
   </a>
 </div>
 
@@ -50,12 +42,12 @@
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=TanishqKatiyar&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="195" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=TanishqKatiyar&layout=compact&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9&langs_count=6" height="195" alt="Top Languages"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=TanishqKatiyar&show_icons=true&theme=transparent&hide_border=true&title_color=00F0FF&icon_color=00F0FF&text_color=c9d1d9" height="195" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=TanishqKatiyar&layout=compact&theme=transparent&hide_border=true&title_color=00F0FF&text_color=c9d1d9&langs_count=6" height="195" alt="Top Languages"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=TanishqKatiyar&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=TanishqKatiyar&theme=transparent&hide_border=true&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF&sideLabels=c9d1d9" alt="GitHub Streak"/>
 </div>
 
 <br />
@@ -68,7 +60,12 @@
 
 <div align="center">
   <a href="mailto:tanishqkatiyar@gmail.com">
-    <img src="https://img.shields.io/badge/tanishqkatiyar@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/tanishqkatiyar@gmail.com-09090b?style=for-the-badge&logo=gmail&logoColor=00F0FF" alt="Email" />
   </a>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%"/>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="assets/animated-footer.svg" width="100%" alt="Footer Animation"/>
 </div>
