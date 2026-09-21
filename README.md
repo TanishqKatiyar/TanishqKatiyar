@@ -10,7 +10,7 @@
 
 <a href="https://github.com/TanishqKatiyar?tab=followers"><img src="https://img.shields.io/github/followers/TanishqKatiyar?style=flat-square&logo=github&logoColor=F7C767&label=Followers&labelColor=0a0a0f&color=F3904B" alt="Followers"/></a>&nbsp;&nbsp;
 <img src="https://komarev.com/ghpvc/?username=TanishqKatiyar&style=flat-square&color=C0350F&label=Profile+Views&labelColor=0a0a0f" alt="Views"/>&nbsp;&nbsp;
-<a href="https://github.com/TanishqKatiyar?tab=repositories"><img src="https://img.shields.io/badge/Repos-12+-F7C767?style=flat-square&logoColor=F7C767&labelColor=0a0a0f" alt="Repos"/></a>
+<a href="https://github.com/TanishqKatiyar?tab=repositories"><img src="https://img.shields.io/badge/Repos-15+-F7C767?style=flat-square&logoColor=F7C767&labelColor=0a0a0f" alt="Repos"/></a>
 
 </div>
 
@@ -50,9 +50,9 @@ const tanishq = {
 >
 > **🛡️ Anti-Fraud Systems** — ML-driven anomaly detection with geospatial risk scoring
 >
-> **💰 Smart Finance Tools** — Voice-first AI expense tracking with predictive analytics
+> **📋 Collaborative Workspaces** — Real-time task management with WebSocket sync
 >
-> **🍔 Production Platforms** — Full-stack delivery apps with live order tracking
+> **💰 Smart Finance Tools** — Voice-first AI expense tracking with predictive analytics
 
 <br/>
 
@@ -116,6 +116,36 @@ End-to-end AI tutor screening platform with **real-time WebRTC audio**, dynamic 
 
 <div align="center">
 
+**[`📋 TASKLANE`](https://github.com/TanishqKatiyar/tasklane)**
+
+<sup>Real-time Collaborative Workspace</sup>
+
+</div>
+
+<br/>
+
+High-performance task management platform with **real-time WebSocket sync**, drag-and-drop boards, team collaboration, and AI-powered task prioritization.
+
+<br/>
+
+<div align="center">
+
+![Next.js](https://img.shields.io/badge/Next.js-0a0a0f?style=flat-square&logo=nextdotjs&logoColor=F7C767)
+![NestJS](https://img.shields.io/badge/NestJS-0a0a0f?style=flat-square&logo=nestjs&logoColor=F3904B)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0a0f?style=flat-square&logo=postgresql&logoColor=C0350F)
+![Redis](https://img.shields.io/badge/Redis-0a0a0f?style=flat-square&logo=redis&logoColor=B89DBB)
+
+<img src="https://img.shields.io/badge/⬤_Live-F7C767?style=flat-square&labelColor=0a0a0f" /> <img src="https://img.shields.io/badge/⬤_Monorepo-B89DBB?style=flat-square&labelColor=0a0a0f" />
+
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
 **[`🛡️ ANTI-FRAUD DELIVERY`](https://github.com/TanishqKatiyar/Anti-fraud-delivery-system)**
 
 <sup>ML-Powered Fraud Detection</sup>
@@ -140,8 +170,6 @@ Intelligent delivery verification with **real-time anomaly detection**, geospati
 </div>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <div align="center">
@@ -166,34 +194,6 @@ Voice-first expense tracking with **AI-powered categorization**, real-time voice
 ![AI](https://img.shields.io/badge/Voice_AI-0a0a0f?style=flat-square&logo=openai&logoColor=B89DBB)
 
 <img src="https://img.shields.io/badge/⬤_Active-F3904B?style=flat-square&labelColor=0a0a0f" /> <img src="https://img.shields.io/badge/⬤_Voice--First-642F37?style=flat-square&labelColor=0a0a0f" />
-
-</div>
-
-</td>
-<td width="50%" valign="top">
-
-<div align="center">
-
-**[`🍔 FOODIE EXPRESS`](https://github.com/TanishqKatiyar/Foodie-express-web-application)**
-
-<sup>Full-Stack Delivery Platform</sup>
-
-</div>
-
-<br/>
-
-Production food delivery with **user auth, live order tracking**, payment integration, restaurant management, and fully responsive mobile-first UI.
-
-<br/>
-
-<div align="center">
-
-![FullStack](https://img.shields.io/badge/Full--Stack-0a0a0f?style=flat-square&logo=javascript&logoColor=F7C767)
-![Express](https://img.shields.io/badge/Express-0a0a0f?style=flat-square&logo=express&logoColor=F3904B)
-![Auth](https://img.shields.io/badge/Auth-0a0a0f?style=flat-square&logo=auth0&logoColor=C0350F)
-![Payments](https://img.shields.io/badge/Payments-0a0a0f?style=flat-square&logo=stripe&logoColor=B89DBB)
-
-<img src="https://img.shields.io/badge/⬤_Active-F7C767?style=flat-square&labelColor=0a0a0f" /> <img src="https://img.shields.io/badge/⬤_Production-B89DBB?style=flat-square&labelColor=0a0a0f" />
 
 </div>
 
@@ -284,16 +284,12 @@ Production food delivery with **user auth, live order tracking**, payment integr
 
 <br/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=TanishqKatiyar&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=F7C767&icon_color=F3904B&text_color=8b949e&ring_color=C0350F&border_color=1a1a2e" alt="Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=TanishqKatiyar&hide_border=true&background=0a0a0f&ring=C0350F&fire=F3904B&currStreakLabel=F7C767&sideLabels=B89DBB&dates=555555&currStreakNum=F7C767&sideNums=F3904B" alt="Streak"/>
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=TanishqKatiyar&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=F7C767&icon_color=F3904B&text_color=8b949e&ring_color=C0350F&border_color=1a1a2e" alt="Stats"/>
+<img width="49%" src="https://streak-stats.demolab.com/?user=TanishqKatiyar&hide_border=true&background=0a0a0f&ring=C0350F&fire=F3904B&currStreakLabel=F7C767&sideLabels=B89DBB&dates=555555&currStreakNum=F7C767&sideNums=F3904B" alt="Streak"/>
 
 <br/><br/>
 
-<img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanishqKatiyar&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=F7C767&text_color=8b949e&langs_count=8&border_color=1a1a2e" alt="Languages"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=TanishqKatiyar&bg_color=0a0a0f&color=B89DBB&line=F3904B&point=F7C767&area=true&area_color=C0350F&hide_border=true&custom_title=Contribution%20Timeline" width="95%" alt="Graph"/>
+<img width="38%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=TanishqKatiyar&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=F7C767&text_color=8b949e&langs_count=8&border_color=1a1a2e" alt="Languages"/>
 
 </div>
 
@@ -309,7 +305,7 @@ Production food delivery with **user auth, live order tracking**, payment integr
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=TanishqKatiyar&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies"/>
+<img src="https://github-trophies.vercel.app/?username=TanishqKatiyar&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies"/>
 
 </div>
 
