@@ -163,13 +163,8 @@
   </picture>
 </div>
 
-<br/>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TanishqKatiyar&bg_color=0d1117&color=00fff0&line=b347ff&point=ff2d7b&area_color=0ff&area=true&hide_border=true&custom_title=Contribution%20Graph" width="95%" alt="Activity Graph"/>
-</div>
 
-<br/>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=TanishqKatiyar&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS&labelColor=0d1117" alt="Profile Views"/>
