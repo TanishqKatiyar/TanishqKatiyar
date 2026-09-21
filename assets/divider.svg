@@ -1,17 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24">
-  <defs>
-    <linearGradient id="d" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F3904B" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#C0350F" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#F7C767" stop-opacity="0.9"/>
-      <stop offset="70%" stop-color="#B89DBB" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#B89DBB" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <line x1="80" y1="12" x2="1120" y2="12" stroke="url(#d)" stroke-width="0.5"/>
-  <circle cx="570" cy="12" r="1.5" fill="#C0350F" opacity="0.6"/>
-  <circle cx="590" cy="12" r="2" fill="#F3904B" opacity="0.8"/>
-  <circle cx="610" cy="12" r="2.5" fill="#F7C767" opacity="0.9"/>
-  <circle cx="630" cy="12" r="2" fill="#B89DBB" opacity="0.8"/>
-  <circle cx="650" cy="12" r="1.5" fill="#642F37" opacity="0.6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 30" width="900" height="30">
+  <rect width="900" height="30" fill="transparent"/>
+  <!-- Center line -->
+  <line x1="100" y1="15" x2="800" y2="15" stroke="#21262d" stroke-width="1"/>
+  <!-- Scanning light -->
+  <circle cx="100" cy="15" r="4" fill="#0ff" opacity="0.8">
+    <animate attributeName="cx" values="100;800;100" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Trail -->
+  <line x1="100" y1="15" x2="200" y2="15" stroke="#0ff" stroke-width="2" opacity="0.3">
+    <animate attributeName="x1" values="100;700;100" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="200;800;200" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="4s" repeatCount="indefinite"/>
+  </line>
 </svg>

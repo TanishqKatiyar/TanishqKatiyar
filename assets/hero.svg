@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="soft-glow">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+    </filter>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ff"/>
+      <stop offset="100%" stop-color="#b347ff"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff2d7b"/>
+      <stop offset="100%" stop-color="#ff8a00"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff">
+        <animate attributeName="stop-color" values="#fff;#0ff;#b347ff;#fff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#b347ff">
+        <animate attributeName="stop-color" values="#b347ff;#ff2d7b;#0ff;#b347ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="line-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ff" stop-opacity="0">
+        <animate attributeName="offset" values="-0.5;1" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#0ff" stop-opacity="1">
+        <animate attributeName="offset" values="0;1.5" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#0ff" stop-opacity="0">
+        <animate attributeName="offset" values="0.5;2" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="400" fill="#0d1117" rx="12"/>
+
+  <!-- Dot Grid -->
+  <g opacity="0.08">
+    <circle cx="30" cy="30" r="1" fill="#fff"/><circle cx="70" cy="30" r="1" fill="#fff"/><circle cx="110" cy="30" r="1" fill="#fff"/><circle cx="150" cy="30" r="1" fill="#fff"/><circle cx="190" cy="30" r="1" fill="#fff"/><circle cx="230" cy="30" r="1" fill="#fff"/><circle cx="270" cy="30" r="1" fill="#fff"/><circle cx="310" cy="30" r="1" fill="#fff"/><circle cx="350" cy="30" r="1" fill="#fff"/><circle cx="390" cy="30" r="1" fill="#fff"/><circle cx="430" cy="30" r="1" fill="#fff"/><circle cx="470" cy="30" r="1" fill="#fff"/><circle cx="510" cy="30" r="1" fill="#fff"/><circle cx="550" cy="30" r="1" fill="#fff"/><circle cx="590" cy="30" r="1" fill="#fff"/><circle cx="630" cy="30" r="1" fill="#fff"/><circle cx="670" cy="30" r="1" fill="#fff"/><circle cx="710" cy="30" r="1" fill="#fff"/><circle cx="750" cy="30" r="1" fill="#fff"/><circle cx="790" cy="30" r="1" fill="#fff"/><circle cx="830" cy="30" r="1" fill="#fff"/><circle cx="870" cy="30" r="1" fill="#fff"/>
+    <circle cx="30" cy="70" r="1" fill="#fff"/><circle cx="70" cy="70" r="1" fill="#fff"/><circle cx="110" cy="70" r="1" fill="#fff"/><circle cx="150" cy="70" r="1" fill="#fff"/><circle cx="190" cy="70" r="1" fill="#fff"/><circle cx="230" cy="70" r="1" fill="#fff"/><circle cx="270" cy="70" r="1" fill="#fff"/><circle cx="310" cy="70" r="1" fill="#fff"/><circle cx="350" cy="70" r="1" fill="#fff"/><circle cx="390" cy="70" r="1" fill="#fff"/><circle cx="430" cy="70" r="1" fill="#fff"/><circle cx="470" cy="70" r="1" fill="#fff"/><circle cx="510" cy="70" r="1" fill="#fff"/><circle cx="550" cy="70" r="1" fill="#fff"/><circle cx="590" cy="70" r="1" fill="#fff"/><circle cx="630" cy="70" r="1" fill="#fff"/><circle cx="670" cy="70" r="1" fill="#fff"/><circle cx="710" cy="70" r="1" fill="#fff"/><circle cx="750" cy="70" r="1" fill="#fff"/><circle cx="790" cy="70" r="1" fill="#fff"/><circle cx="830" cy="70" r="1" fill="#fff"/><circle cx="870" cy="70" r="1" fill="#fff"/>
+    <circle cx="30" cy="110" r="1" fill="#fff"/><circle cx="70" cy="110" r="1" fill="#fff"/><circle cx="110" cy="110" r="1" fill="#fff"/><circle cx="150" cy="110" r="1" fill="#fff"/><circle cx="190" cy="110" r="1" fill="#fff"/><circle cx="230" cy="110" r="1" fill="#fff"/><circle cx="270" cy="110" r="1" fill="#fff"/><circle cx="310" cy="110" r="1" fill="#fff"/><circle cx="350" cy="110" r="1" fill="#fff"/><circle cx="390" cy="110" r="1" fill="#fff"/><circle cx="430" cy="110" r="1" fill="#fff"/><circle cx="470" cy="110" r="1" fill="#fff"/><circle cx="510" cy="110" r="1" fill="#fff"/><circle cx="550" cy="110" r="1" fill="#fff"/><circle cx="590" cy="110" r="1" fill="#fff"/><circle cx="630" cy="110" r="1" fill="#fff"/><circle cx="670" cy="110" r="1" fill="#fff"/><circle cx="710" cy="110" r="1" fill="#fff"/><circle cx="750" cy="110" r="1" fill="#fff"/><circle cx="790" cy="110" r="1" fill="#fff"/><circle cx="830" cy="110" r="1" fill="#fff"/><circle cx="870" cy="110" r="1" fill="#fff"/>
+    <circle cx="30" cy="150" r="1" fill="#fff"/><circle cx="70" cy="150" r="1" fill="#fff"/><circle cx="110" cy="150" r="1" fill="#fff"/><circle cx="150" cy="150" r="1" fill="#fff"/><circle cx="190" cy="150" r="1" fill="#fff"/><circle cx="230" cy="150" r="1" fill="#fff"/><circle cx="270" cy="150" r="1" fill="#fff"/><circle cx="310" cy="150" r="1" fill="#fff"/><circle cx="350" cy="150" r="1" fill="#fff"/><circle cx="390" cy="150" r="1" fill="#fff"/><circle cx="430" cy="150" r="1" fill="#fff"/><circle cx="470" cy="150" r="1" fill="#fff"/><circle cx="510" cy="150" r="1" fill="#fff"/><circle cx="550" cy="150" r="1" fill="#fff"/><circle cx="590" cy="150" r="1" fill="#fff"/><circle cx="630" cy="150" r="1" fill="#fff"/><circle cx="670" cy="150" r="1" fill="#fff"/><circle cx="710" cy="150" r="1" fill="#fff"/><circle cx="750" cy="150" r="1" fill="#fff"/><circle cx="790" cy="150" r="1" fill="#fff"/><circle cx="830" cy="150" r="1" fill="#fff"/><circle cx="870" cy="150" r="1" fill="#fff"/>
+    <circle cx="30" cy="190" r="1" fill="#fff"/><circle cx="70" cy="190" r="1" fill="#fff"/><circle cx="110" cy="190" r="1" fill="#fff"/><circle cx="150" cy="190" r="1" fill="#fff"/><circle cx="190" cy="190" r="1" fill="#fff"/><circle cx="230" cy="190" r="1" fill="#fff"/><circle cx="270" cy="190" r="1" fill="#fff"/><circle cx="310" cy="190" r="1" fill="#fff"/><circle cx="350" cy="190" r="1" fill="#fff"/><circle cx="390" cy="190" r="1" fill="#fff"/><circle cx="430" cy="190" r="1" fill="#fff"/><circle cx="470" cy="190" r="1" fill="#fff"/><circle cx="510" cy="190" r="1" fill="#fff"/><circle cx="550" cy="190" r="1" fill="#fff"/><circle cx="590" cy="190" r="1" fill="#fff"/><circle cx="630" cy="190" r="1" fill="#fff"/><circle cx="670" cy="190" r="1" fill="#fff"/><circle cx="710" cy="190" r="1" fill="#fff"/><circle cx="750" cy="190" r="1" fill="#fff"/><circle cx="790" cy="190" r="1" fill="#fff"/><circle cx="830" cy="190" r="1" fill="#fff"/><circle cx="870" cy="190" r="1" fill="#fff"/>
+    <circle cx="30" cy="230" r="1" fill="#fff"/><circle cx="70" cy="230" r="1" fill="#fff"/><circle cx="110" cy="230" r="1" fill="#fff"/><circle cx="150" cy="230" r="1" fill="#fff"/><circle cx="190" cy="230" r="1" fill="#fff"/><circle cx="230" cy="230" r="1" fill="#fff"/><circle cx="270" cy="230" r="1" fill="#fff"/><circle cx="310" cy="230" r="1" fill="#fff"/><circle cx="350" cy="230" r="1" fill="#fff"/><circle cx="390" cy="230" r="1" fill="#fff"/><circle cx="430" cy="230" r="1" fill="#fff"/><circle cx="470" cy="230" r="1" fill="#fff"/><circle cx="510" cy="230" r="1" fill="#fff"/><circle cx="550" cy="230" r="1" fill="#fff"/><circle cx="590" cy="230" r="1" fill="#fff"/><circle cx="630" cy="230" r="1" fill="#fff"/><circle cx="670" cy="230" r="1" fill="#fff"/><circle cx="710" cy="230" r="1" fill="#fff"/><circle cx="750" cy="230" r="1" fill="#fff"/><circle cx="790" cy="230" r="1" fill="#fff"/><circle cx="830" cy="230" r="1" fill="#fff"/><circle cx="870" cy="230" r="1" fill="#fff"/>
+    <circle cx="30" cy="270" r="1" fill="#fff"/><circle cx="70" cy="270" r="1" fill="#fff"/><circle cx="110" cy="270" r="1" fill="#fff"/><circle cx="150" cy="270" r="1" fill="#fff"/><circle cx="190" cy="270" r="1" fill="#fff"/><circle cx="230" cy="270" r="1" fill="#fff"/><circle cx="270" cy="270" r="1" fill="#fff"/><circle cx="310" cy="270" r="1" fill="#fff"/><circle cx="350" cy="270" r="1" fill="#fff"/><circle cx="390" cy="270" r="1" fill="#fff"/><circle cx="430" cy="270" r="1" fill="#fff"/><circle cx="470" cy="270" r="1" fill="#fff"/><circle cx="510" cy="270" r="1" fill="#fff"/><circle cx="550" cy="270" r="1" fill="#fff"/><circle cx="590" cy="270" r="1" fill="#fff"/><circle cx="630" cy="270" r="1" fill="#fff"/><circle cx="670" cy="270" r="1" fill="#fff"/><circle cx="710" cy="270" r="1" fill="#fff"/><circle cx="750" cy="270" r="1" fill="#fff"/><circle cx="790" cy="270" r="1" fill="#fff"/><circle cx="830" cy="270" r="1" fill="#fff"/><circle cx="870" cy="270" r="1" fill="#fff"/>
+    <circle cx="30" cy="310" r="1" fill="#fff"/><circle cx="70" cy="310" r="1" fill="#fff"/><circle cx="110" cy="310" r="1" fill="#fff"/><circle cx="150" cy="310" r="1" fill="#fff"/><circle cx="190" cy="310" r="1" fill="#fff"/><circle cx="230" cy="310" r="1" fill="#fff"/><circle cx="270" cy="310" r="1" fill="#fff"/><circle cx="310" cy="310" r="1" fill="#fff"/><circle cx="350" cy="310" r="1" fill="#fff"/><circle cx="390" cy="310" r="1" fill="#fff"/><circle cx="430" cy="310" r="1" fill="#fff"/><circle cx="470" cy="310" r="1" fill="#fff"/><circle cx="510" cy="310" r="1" fill="#fff"/><circle cx="550" cy="310" r="1" fill="#fff"/><circle cx="590" cy="310" r="1" fill="#fff"/><circle cx="630" cy="310" r="1" fill="#fff"/><circle cx="670" cy="310" r="1" fill="#fff"/><circle cx="710" cy="310" r="1" fill="#fff"/><circle cx="750" cy="310" r="1" fill="#fff"/><circle cx="790" cy="310" r="1" fill="#fff"/><circle cx="830" cy="310" r="1" fill="#fff"/><circle cx="870" cy="310" r="1" fill="#fff"/>
+    <circle cx="30" cy="350" r="1" fill="#fff"/><circle cx="70" cy="350" r="1" fill="#fff"/><circle cx="110" cy="350" r="1" fill="#fff"/><circle cx="150" cy="350" r="1" fill="#fff"/><circle cx="190" cy="350" r="1" fill="#fff"/><circle cx="230" cy="350" r="1" fill="#fff"/><circle cx="270" cy="350" r="1" fill="#fff"/><circle cx="310" cy="350" r="1" fill="#fff"/><circle cx="350" cy="350" r="1" fill="#fff"/><circle cx="390" cy="350" r="1" fill="#fff"/><circle cx="430" cy="350" r="1" fill="#fff"/><circle cx="470" cy="350" r="1" fill="#fff"/><circle cx="510" cy="350" r="1" fill="#fff"/><circle cx="550" cy="350" r="1" fill="#fff"/><circle cx="590" cy="350" r="1" fill="#fff"/><circle cx="630" cy="350" r="1" fill="#fff"/><circle cx="670" cy="350" r="1" fill="#fff"/><circle cx="710" cy="350" r="1" fill="#fff"/><circle cx="750" cy="350" r="1" fill="#fff"/><circle cx="790" cy="350" r="1" fill="#fff"/><circle cx="830" cy="350" r="1" fill="#fff"/><circle cx="870" cy="350" r="1" fill="#fff"/>
+  </g>
+
+  <!-- Ambient Glow Blobs (SMIL animated) -->
+  <circle cx="150" cy="200" r="180" fill="#0ff" filter="url(#soft-glow)" opacity="0.07">
+    <animate attributeName="cx" values="150;200;150" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="200;160;200" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="750" cy="200" r="200" fill="#b347ff" filter="url(#soft-glow)" opacity="0.06">
+    <animate attributeName="cx" values="750;700;750" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="200;240;200" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="350" r="120" fill="#ff2d7b" filter="url(#soft-glow)" opacity="0.05">
+    <animate attributeName="cx" values="450;500;450" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Orbiting Particles -->
+  <g filter="url(#glow)">
+    <!-- Particle 1 - orbits top-left -->
+    <circle r="3" fill="#0ff">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M 120,100 C 180,60 220,140 180,180 C 140,220 80,140 120,100"/>
+    </circle>
+    <!-- Particle 2 - orbits center -->
+    <circle r="2.5" fill="#b347ff">
+      <animateMotion dur="9s" repeatCount="indefinite" path="M 450,120 C 520,80 560,160 500,200 C 440,240 380,160 450,120"/>
+    </circle>
+    <!-- Particle 3 - orbits right -->
+    <circle r="3.5" fill="#ff2d7b">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M 750,140 C 810,100 830,200 780,220 C 730,240 690,180 750,140"/>
+    </circle>
+    <!-- Particle 4 - long horizontal sweep -->
+    <circle r="2" fill="#0ff" opacity="0.7">
+      <animateMotion dur="15s" repeatCount="indefinite" path="M 50,300 C 250,280 450,320 650,290 C 850,260 850,340 650,310 C 450,280 250,320 50,300"/>
+    </circle>
+    <!-- Particle 5 -->
+    <circle r="2" fill="#ff8a00" opacity="0.8">
+      <animateMotion dur="11s" repeatCount="indefinite" path="M 300,80 C 350,50 400,110 370,150 C 340,190 270,130 300,80"/>
+    </circle>
+    <!-- Particle 6 -->
+    <circle r="1.5" fill="#fff" opacity="0.5">
+      <animateMotion dur="20s" repeatCount="indefinite" path="M 100,350 L 800,50"/>
+    </circle>
+  </g>
+
+  <!-- Shimmer Line across center -->
+  <line x1="60" y1="265" x2="840" y2="265" stroke="url(#line-shimmer)" stroke-width="1" opacity="0.6"/>
+
+  <!-- Terminal Window -->
+  <g transform="translate(60, 40)">
+    <!-- Window chrome -->
+    <rect width="780" height="210" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+    <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+    <circle cx="60" cy="18" r="6" fill="#28c840"/>
+    <rect x="0" y="32" width="780" height="1" fill="#30363d"/>
+
+    <!-- Terminal content -->
+    <text x="20" y="62" fill="#8b949e" font-family="monospace" font-size="13">tanishq@dev ~</text>
+    <text x="155" y="62" fill="#0ff" font-family="monospace" font-size="13">$ whoami</text>
+
+    <text x="20" y="90" fill="#c9d1d9" font-family="monospace" font-size="13">→ AI &amp; Full-Stack Engineer</text>
+
+    <text x="20" y="120" fill="#8b949e" font-family="monospace" font-size="13">tanishq@dev ~</text>
+    <text x="155" y="120" fill="#0ff" font-family="monospace" font-size="13">$ cat skills.txt</text>
+
+    <text x="20" y="148" fill="#b347ff" font-family="monospace" font-size="13">TypeScript  Python  Go  React  Next.js  Node.js</text>
+    <text x="20" y="170" fill="#ff2d7b" font-family="monospace" font-size="13">PyTorch  TensorFlow  Docker  AWS  PostgreSQL  Redis</text>
+
+    <text x="20" y="200" fill="#8b949e" font-family="monospace" font-size="13">tanishq@dev ~</text>
+    <text x="155" y="200" fill="#0ff" font-family="monospace" font-size="13">$ _</text>
+    <!-- Blinking cursor -->
+    <rect x="168" y="188" width="8" height="15" fill="#0ff">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Name - Large, gradient-animated -->
+  <text x="450" y="320" text-anchor="middle" fill="url(#text-grad)" font-family="sans-serif" font-size="46" font-weight="800" letter-spacing="-1">
+    TANISHQ KATIYAR
+  </text>
+
+  <!-- Subtitle with breathing opacity -->
+  <text x="450" y="355" text-anchor="middle" fill="#8b949e" font-family="sans-serif" font-size="16" letter-spacing="4">
+    BUILDING THINGS THAT MATTER
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Bottom accent dots -->
+  <g transform="translate(405, 380)">
+    <circle cx="0" cy="0" r="3" fill="#0ff">
+      <animate attributeName="r" values="2;4;2" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="30" cy="0" r="3" fill="#b347ff">
+      <animate attributeName="r" values="2;4;2" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="0" r="3" fill="#ff2d7b">
+      <animate attributeName="r" values="2;4;2" dur="3s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90" cy="0" r="3" fill="#ff8a00">
+      <animate attributeName="r" values="2;4;2" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+</svg>
